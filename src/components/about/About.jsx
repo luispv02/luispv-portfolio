@@ -1,4 +1,9 @@
 import development from '../../assets/images/development.gif'
+import whatsapp from '../../assets/images/whatsapp.png';
+import gmail from '../../assets/images/gmail.png';
+import linkedin from '../../assets/images/linkedin.png';
+import github from '../../assets/images/github-white.png';
+
 
 export const About = () => {
   return (
@@ -6,18 +11,30 @@ export const About = () => {
       <div className='w-full max-w-6xl mx-auto'>
         <h2 className='text-center text-3xl pb-6'>Sobre Mi</h2>
 
-        <div className="about-content flex flex-col md:flex-row md:items-center lg:gap-16">
+        <div className="about-content flex flex-col md:items-center md:gap-8  lg:px-46">
           <div className="about-content-info">
             <p className='md: text-sm'>
               Desarrollador web FrontEnd con más de dos años de experiencia y conocimientos básicos en BackEnd. Me enfoco en crear soluciones funcionales, accesibles y visualmente atractivas. Me motiva enfrentar desafíos que impulsen mi crecimiento profesional, me permitan aprender nuevas tecnologías y aportar a proyectos innovadores.
             </p>
           </div>
 
-          <img 
-            src={development}
-            alt='img development'
-            className="w-full m-auto md:w-1/2 px-10 pt-3"
-          />
+          <div className="contact-content-icons flex justify-center gap-8 md:gap-6 mt-6 md:mt-0">
+            <a href="https://wa.me/527841109307" target="_blank"  rel="noopener noreferrer">
+              <img src={whatsapp} alt="whatsapp" className='w-10 md:w-10 lg:w-12'/>
+            </a>
+
+            <a href="mailto:luispv.1002@gmail.com" target="_blank"  rel="noopener noreferrer">
+              <img src={gmail} alt="gmail" className='w-10 md:w-10 lg:w-12'/>
+            </a>
+
+            <a href="https://www.linkedin.com/in/luis-fernando-p%C3%A9rez-varajas-b6539818b/" target="_blank"  rel="noopener noreferrer">
+              <img src={linkedin} alt="linkedin" className='w-10 md:w-10 lg:w-12'/>
+            </a>
+
+            <a href="https://github.com/luispv02" target="_blank"  rel="noopener noreferrer">
+              <img src={github} alt="github" className='w-10 md:w-10 lg:w-12'/>
+            </a>
+          </div>
         </div>
       </div>
     </section>
