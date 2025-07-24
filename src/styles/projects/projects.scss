@@ -3,6 +3,10 @@
 .projects-content{
     
     .project-card{
+        &:hover{
+            transform: translateY(-10px);
+        }
+
         &::before{
             content: '';
             position: absolute;
@@ -18,6 +22,11 @@
 
         &:hover::before{
             opacity: 1;
+        }
+
+        &:hover .project-card-info{
+            opacity: 1;
+            transform: translateY(0px);
         }
     }
 }
