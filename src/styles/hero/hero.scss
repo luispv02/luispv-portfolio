@@ -1,0 +1,38 @@
+.cv-btn {
+    position: relative;
+    z-index: 99;
+    background: black;
+    border-radius: 20px;
+    padding: 10px 50px;
+    top: 30px;
+    box-shadow: 0 0 0px #ffffff,  0 0 5px #ffffff inset;
+
+    &::before{
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 85%;
+        height: 110%;
+        background-color: #e5e5e5;
+        border-radius: 50px;
+        animation: smooth-animation-btn 1.8s linear infinite;
+        z-index: -1; 
+
+    }
+}
+
+@keyframes smooth-animation-btn  {
+    0% {
+        transform: translate(-50%, -50%) scale(0);
+        opacity: 0.8;
+    }
+    50% {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 0.5;
+    }
+    100% {
+        transform: translate(-50%, -50%) scale(1.6);
+        opacity: 0;
+    }
+}

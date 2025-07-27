@@ -65,7 +65,9 @@ export const Hero = () => {
 
             </motion.div>  
 
-            <a href='/CV_Luis_Fernando.pdf' target="_blank" className="bg-blue-700 rounded-3xl mt-4 px-7 py-2 inline-block md:px-10">Ver Cv</a>
+            <a href='/CV_Luis_Fernando.pdf' target="_blank" className="cv-btn">
+                Ver CV
+            </a> 
 
             <motion.img 
                 src={ image }
@@ -73,7 +75,7 @@ export const Hero = () => {
                 variants={imageVariants}
                 initial='hidden'
                 animate='show'
-                className="w-1/2 m-auto mt-10 md:w-1/4 md:mt-15 xl:w-72"
+                className="w-1/2 m-auto mt-20 md:w-1/4 md:mt-15 xl:w-72"
             />
 
             <div className="hero-arrow-down absolute left-0 right-0 bottom-1/12">

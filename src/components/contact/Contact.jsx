@@ -64,8 +64,22 @@ export const Contact = () => {
                   : 'bg-green-100 border-green-400 text-green-700'
                   }`}>{ displayMessage.message }</div>
                 }
+
+                
                
+               {
+                isPending
+                ? 
+                <div className="spinner-content">
+                  <div className="circle-border">
+                    <div className="circle-core"></div>
+                  </div>  
+                </div>
+                :
                 <button type="submit" disabled={isPending} className={`bg-blue-600 z-99 text-white font-semibold py-2 px-6 rounded hover:bg-blue-700 transition-colors w-full md:w-auto self-center cursor-pointer ${isPending ? 'opacity-50' : '' }`}>Enviar</button>
+               }
+
+                
             </form>
         </div>
     </div>

@@ -4,4 +4,6 @@
 @import '../../styles/base.scss';
 @import '../../styles/header/header.scss';
 @import '../../styles/hero/backgroundAnimate.scss';
+@import '../../styles/hero/hero.scss';
 @import '../../styles/projects/projects.scss';
+@import '../../styles/contact/contact.scss';
