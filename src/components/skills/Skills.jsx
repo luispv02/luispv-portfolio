@@ -2,7 +2,7 @@ import { skills } from "../../utils/skills";
 
 export const Skills = () => {
   return (
-    <section className="skills bg-gray-950 z-10 relative py-10 px-7 text-white">
+    <section className="skills bg-gray-950 z-10 relative py-10 px-7 text-white" id="skills">
         <div className="w-full max-w-6xl mx-auto skills-content">
             <h2 className="text-center text-3xl pb-6 text-white">Tecnologias</h2>
 
