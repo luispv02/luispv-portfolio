@@ -9,7 +9,7 @@ export const Experience = () => {
                     <article className="rounded-lg border border-gray-200 p-5 shadow-sm bg-white">
                         <div className="flex flex-col md:flex-row md:items-center md:justify-between">
                             <div>
-                                <h3 className="text-xl font-semibold">Tierra</h3>
+                                <h3 className="text-xl font-semibold">iTierra</h3>
                                 <p className="text-blue-700 font-medium">Desarrollador FullStack</p>
                                 <p className="text-sm text-gray-600">Remoto</p>
                             </div>
