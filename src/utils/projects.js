@@ -4,14 +4,15 @@ import weatherImg from '../assets/projects/03.png'
 import heroesImg from '../assets/projects/05.png' 
 import diaryImg from '../assets/projects/06.png' 
 import managerImg from '../assets/projects/07.png' 
+import planTodoImg from '../assets/projects/08.png'
 
 export const projects = [
     {
-        imagen: storeImg,
-        titulo: 'Online Store',
-        github: 'https://github.com/luispv02/online-store-reactjs',
-        pagina: 'https://online-store-ten-xi.vercel.app/',
-        descripcion: 'Tienda en linea, podremos buscar articulos por categoria o por el tipo de articulo, podremos añadir al carrito y eliminar articulos, podremos cambiar cantidades todo esto actualizando los precios y el total.',
+        imagen: planTodoImg,
+        titulo: 'PlanTodo',
+        github: 'https://github.com/luispv02/plan-todo-frontend',
+        pagina: 'https://plan-todo-rouge.vercel.app/',
+        descripcion: 'Aplicación para la gestión de tareas con CRUD completo. Interfaz responsiva con navegación entre vistas y backend con Node.js, Express y MongoDB para el almacenamiento de datos.',
     },
     {
         imagen: tasksImg,

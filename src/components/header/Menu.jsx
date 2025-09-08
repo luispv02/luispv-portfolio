@@ -6,14 +6,16 @@ export const Menu = ({ isMenuVisible, handleMenuLinks } ) => {
 
     const links = [
         { href: "#about", text: "Sobre Mí" },
+        { href: "#experience", text: "Experiencia" },
         { href: "#projects", text: "Proyectos" },
+        { href: "#skills", text: "Habilidades" },
         { href: "#contact", text: "Contacto" },
     ];
 
     
 
     return (
-        <nav className={`nav absolute w-screen text-center right-0 pt-14 md:initial md:pt-0 md:w-auto ${isMenuVisible ? 'top-0' : '-top-80'}`}>
+        <nav className={`nav absolute w-screen text-center right-0 pt-14 md:initial md:pt-0 md:w-auto ${isMenuVisible ? 'top-0' : '-top-100'}`}>
             <ul className="nav-list md:flex">
                 {
                     links.map(({href, text}) => (

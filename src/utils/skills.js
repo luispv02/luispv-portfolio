@@ -12,6 +12,8 @@ import firebase from '../assets/skills/firebase.png';
 import pinia from '../assets/skills/pinia.png';
 import quasar from '../assets/skills/quasar.png';
 import vue from '../assets/skills/vue.png';
+import node from '../assets/skills/nodejs.png';
+import express from '../assets/skills/express.png';
 
 
 export const skills = [
@@ -70,5 +72,13 @@ export const skills = [
     {
         imagen: firebase,
         titulo: 'firebase',
+    },
+    {
+        imagen: node,
+        titulo: 'nodeJs',
+    },
+    {
+        imagen: express,
+        titulo: 'expressJs',
     }
 ]

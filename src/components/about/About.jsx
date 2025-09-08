@@ -14,7 +14,7 @@ export const About = () => {
         <div className="about-content flex flex-col md:items-center md:gap-8  lg:px-46">
           <div className="about-content-info">
             <p className='md: text-sm'>
-              Desarrollador web FrontEnd con más de dos años de experiencia y conocimientos básicos en BackEnd. Me enfoco en crear soluciones funcionales, accesibles y visualmente atractivas. Me motiva enfrentar desafíos que impulsen mi crecimiento profesional, me permitan aprender nuevas tecnologías y aportar a proyectos innovadores.
+            Desarrollador Frontend con más de 2 años de experiencia creando interfaces modernas, accesibles y responsivas con VueJs y ReactJs. Con conocimientos en backend (Node.js, Express, AWS Lambda, Serverless y Firebase), lo que me permite contribuir en proyectos FullStack. Me motiva asumir desafíos que impulsen mi crecimiento profesional, abierto a aprender y adaptarme a nuevas tecnologías para aportar en proyectos innovadores.
             </p>
           </div>
 
