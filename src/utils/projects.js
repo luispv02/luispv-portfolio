@@ -5,47 +5,57 @@ import heroesImg from '../assets/projects/05.png'
 import diaryImg from '../assets/projects/06.png' 
 import managerImg from '../assets/projects/07.png' 
 import planTodoImg from '../assets/projects/08.png'
+import diaryApp from '../assets/projects/diary-app.png'
 
 export const projects = [
     {
+        imagen: diaryApp,
+        titulo: 'DiaryApp',
+        githubFront: 'https://github.com/luispv02/diary-app-frontend',
+        githubBack: 'https://github.com/luispv02/diary-app-backend',
+        pagina: 'https://diary-app-frontend-opal.vercel.app/',
+        descripcion: 'Aplicación web para la creación y gestión de notas personales. Incluye autenticación de usuarios, inicio de sesión y un CRUD completo para las notas. Cuenta con una interfaz moderna y totalmente responsiva.',
+    },
+    {
         imagen: planTodoImg,
         titulo: 'PlanTodo',
-        github: 'https://github.com/luispv02/plan-todo-frontend',
+        githubFront: 'https://github.com/luispv02/plan-todo-frontend',
+        githubBack: 'https://github.com/luispv02/plan-todo-backend',
         pagina: 'https://plan-todo-rouge.vercel.app/',
         descripcion: 'Aplicación para la gestión de tareas con CRUD completo. Interfaz responsiva con navegación entre vistas y backend con Node.js, Express y MongoDB para el almacenamiento de datos.',
     },
     {
         imagen: tasksImg,
         titulo: 'Administrador de Tareas',
-        github: 'https://github.com/luispv02/Todo-App-React',
+        githubFront: 'https://github.com/luispv02/Todo-App-React',
         pagina: 'https://todo-app-react-ivory.vercel.app/',
         descripcion: 'TodoApp, agregamos tareas y las enlistamos, las podemos marcar como completas y eliminarlas, usamos LocalStorage para guardar y no perderlas.'
     },
     {
         imagen: weatherImg,
         titulo: 'Buscador Clima',
-        github: 'https://github.com/luispv02/buscador-clima',
+        githubFront: 'https://github.com/luispv02/buscador-clima',
         pagina: 'https://epic-joliot-1078ac.netlify.app',
         descripcion: 'Busca el clima de tu Ciudad por su nombre y el nombre del Pais de dos digitos, usamos la API de openweather para obtener los resultados', 
     },
     {
         imagen: heroesImg,
         titulo: 'Heroes Search',
-        github: 'https://github.com/luispv02/heroes-search',
+        githubFront: 'https://github.com/luispv02/heroes-search',
         pagina: 'https://heroes-search.vercel.app/',
         descripcion: 'Buscador de superheroes por su nombre o Id, filtramos heroes que tengan caracteres similares, usamos la API de superheroapi.', 
     },
     {
         imagen: diaryImg,
         titulo: 'My Diary App ',
-        github: 'https://github.com/luispv02/My-diary',
+        githubFront: 'https://github.com/luispv02/My-diary',
         pagina: 'https://my-diary-psi.vercel.app/',
         descripcion: 'Diario personal, podemos registrar usuario o iniciar sesion con google, al estar logeado podemos crear notas personales, editarlas, agregar imagen y eliminarlas. Usamos redux y firebase para autenticacion y db.', 
     },
     {
         imagen: managerImg,
         titulo: 'Administrador de Pacientes',
-        github: 'https://github.com/luispv02/Patient-manager',
+        githubFront: 'https://github.com/luispv02/Patient-manager',
         pagina: 'https://patient-manager-two.vercel.app/',
         descripcion: 'Pagina para administrar pacientes, podemos agregar pacientes, editarlos y eliminarlos, usamos redux y firebase.', 
     }

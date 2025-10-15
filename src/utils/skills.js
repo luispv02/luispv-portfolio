@@ -14,6 +14,8 @@ import quasar from '../assets/skills/quasar.png';
 import vue from '../assets/skills/vue.png';
 import node from '../assets/skills/nodejs.png';
 import express from '../assets/skills/express.png';
+import zustand from '../assets/skills/zustand.png';
+import reactQuery from '../assets/skills/react-query.png';
 
 
 export const skills = [
@@ -46,6 +48,22 @@ export const skills = [
         titulo: 'responsive design',
     },
     {
+        imagen: react,
+        titulo: 'react',
+    },
+    {
+        imagen: redux,
+        titulo: 'redux',
+    },
+    {
+        imagen: zustand,
+        titulo: 'zustand',
+    },
+    {
+        imagen: reactQuery,
+        titulo: 'react query',
+    },
+    {
         imagen: vue,
         titulo: 'vue',
     },
@@ -56,14 +74,6 @@ export const skills = [
     {
         imagen: quasar,
         titulo: 'quasar',
-    },
-    {
-        imagen: react,
-        titulo: 'react',
-    },
-    {
-        imagen: redux,
-        titulo: 'redux',
     },
     {
         imagen: git,

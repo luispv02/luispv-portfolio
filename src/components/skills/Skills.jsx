@@ -13,7 +13,7 @@ export const Skills = () => {
                             <img 
                                 src={skill.imagen} 
                                 alt={`icon ${skill.titulo.toLowerCase()}`}
-                                className="w-12 cursor-pointer object-contain drop-shadow-md transition-all duration-300  hover:drop-shadow-gray-200"
+                                className="w-12 cursor-pointer object-contain drop-shadow-md hover:drop-shadow-gray-200"
                             />
                         </div>
                     ))
