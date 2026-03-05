@@ -80,7 +80,7 @@ export const Contact = () => {
             <FaRegUser className="text-blue-500"/>
             <Label htmlFor="name">Nombre</Label>
           </div>
-          <Input id="name" name="name" type="text" className="border border-gray-500" value={contactData.name} onChange={handleInputChange} disabled={loading} />
+          <Input id="name" name="name" type="text" className="border border-gray-500 focus-visible:ring-0 focus-visible:border-blue/80  shadow-md focus-visible:shadow-blue-500" value={contactData.name} onChange={handleInputChange} disabled={loading} />
         </div>
 
         <div>
@@ -88,7 +88,7 @@ export const Contact = () => {
             <MdOutlineEmail className="text-blue-500"/>
             <Label htmlFor="email">Email</Label>
           </div>
-          <Input id="email" name="email" type="email" className="border border-gray-500" value={contactData.email} onChange={handleInputChange} disabled={loading}/>
+          <Input id="email" name="email" type="email" className="border border-gray-500 focus-visible:ring-0 focus-visible:border-blue/80  shadow-md focus-visible:shadow-blue-500" value={contactData.email} onChange={handleInputChange} disabled={loading}/>
         </div>
 
         <div>
@@ -96,7 +96,7 @@ export const Contact = () => {
             <FiMessageSquare className="text-blue-500"/>
             <Label htmlFor="message">Mensaje</Label>
           </div>
-          <Textarea id="message" name="message" placeholder="Escribe tu mensaje" className="border border-gray-500" value={contactData.message} onChange={handleInputChange} disabled={loading}/>
+          <Textarea id="message" name="message" placeholder="Escribe tu mensaje" className="h-40 text-sm md:text-base border border-gray-500 focus-visible:ring-0 focus-visible:border-blue/80  shadow-md focus-visible:shadow-blue-500" value={contactData.message} onChange={handleInputChange} disabled={loading}/>
         </div>
 
         {

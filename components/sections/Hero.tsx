@@ -10,7 +10,7 @@ export const Hero = () => {
     { url: 'https://www.linkedin.com/in/luis-fpv/', icon: SlSocialLinkedin, label: 'Linkedin' },
     { url: 'https://github.com/luispv02', icon: FiGithub, label: 'Github' },
     { url: 'mailto:luispv.1002@gmail.com', icon: MdOutlineEmail, label: 'Gmail' },
-    { url: 'https://wa.me/52784110937', icon: FaWhatsapp, label: 'Whatsapp' }
+    { url: 'https://wa.me/527841109307', icon: FaWhatsapp, label: 'Whatsapp' }
   ]
 
   return (
