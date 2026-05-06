@@ -31,11 +31,11 @@ export const Experience = () => {
 
                 {
                   exp.projects.map(project => (
-                    <div key={project.name} className="mt-5">
-                      <div className="font-semibold mb-1 flex items-center gap-2">
+                    <div key={project.name} className="mt-6">
+                      <div className="font-semibold">
                         <p>{ project.name }</p>
                         {
-                          project.period && <p className="bg-gray-200/20 rounded-full px-2">{project.period}</p>
+                          project.period && <p className="bg-gray-200/20 rounded-full px-2 inline-block mt-1 mb-2 md:text-sm py-0.5">{project.period}</p>
                         }
                       </div>
 

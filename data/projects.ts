@@ -1,16 +1,10 @@
 import { Project } from "@/types/project";
 
-// {
-//   demo: 'https://e-commerce-app-teal-psi.vercel.app/',
-//   frontendRepo: 'https://github.com/luispv02/e-commerce-frontend',
-//   backendRepo: 'https://github.com/luispv02/e-commerce-backend'
-// }
-
 export const projects: Project[] = [
   {
     id: 1,
     title: 'E-commerce',
-    description: 'Aplicación eCommerce Fullstack desarrollada con arquitectura MERN. Implementa autenticación JWT con roles (admin/user), gestión de productos y generación de órdenes, incluyendo panel administrativo con CRUD completo y protección de rutas. Frontend desplegado en Vercel y Backend en Render',
+    description: 'Aplicación Ecommerce fullstack con arquitectura MERN, que integra autenticación JWT con roles, APIs REST para gestión de productos, usuarios y órdenes, y un dashboard administrativo con métricas clave. Incluye protección de rutas y despliegue en Vercel (frontend) y Render (backend).',
     tech: ['React.js', 'TypeScript', 'TanStack Query', 'Zustand', 'Node.js', 'Express', 'MongoDB', 'JWT', 'Tailwind CSS'],
     links: [
       { label: 'Demo', url: 'https://e-commerce-app-teal-psi.vercel.app/', type: 'demo' },

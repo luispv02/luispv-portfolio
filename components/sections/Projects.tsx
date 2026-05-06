@@ -36,7 +36,7 @@ export const Projects = () => {
                 <div className="flex gap-3">
                   {
                     project.links.map(link => (
-                      <a key={link.url} href={link.url} target="_blank" rel="noopener noreferrer" className="flex items-center text-gray-300 gap-1 hover:text-white transition">
+                      <a key={link.url} href={link.url} target="_blank" rel="noopener noreferrer" className="flex items-center text-gray-300 gap-1 hover:text-white transition hover:underline">
                         { link.type === 'demo' ? <LuExternalLink /> : <FiGithub /> }
                         <p className="text-sm">{link.label}</p>
                       </a>

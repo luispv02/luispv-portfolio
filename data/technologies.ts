@@ -6,18 +6,18 @@ interface Technology {
 export const technologies: Technology[] = [
   {
     category: 'Frontend',
-    skills: ['React.js', 'TypeScript', 'JavaScript', 'Zustand', 'Redux', 'TanStack Query', 'Vue 3', 'Pinia','Jest', 'HTML', 'CSS', 'Tailwind CSS', 'Sass', 'Bootstrap', 'Quasar', 'Responsive Design']
+    skills: ['React.js', 'TypeScript', 'JavaScript', 'Zustand', 'Redux', 'React Query','Jest', 'React Testing Library', 'Vue 3', 'Pinia', 'HTML', 'CSS', 'Tailwind CSS', 'Sass', 'Bootstrap', 'Quasar', 'Responsive Design']
   },
   {
     category: 'Backend',
-    skills: ['Node.js', 'Express', 'Serverless Framework', 'AWS Lambda', 'Firebase', 'MongoDB', 'Docker']
+    skills: ['Node.js', 'Express', 'Serverless Framework', 'AWS Lambda', 'PostgreSQL', 'Firebase', 'MongoDB']
   },
   {
     category: 'Herramientas',
-    skills: ['Git','GitHub','Bitbucket','Jira']
+    skills: ['Docker', 'Git','GitHub','Bitbucket','Jira']
   },
   {
     category: 'Metodologías',
-    skills: ['Desarrollo Ágil', 'Scrum']
+    skills: ['Scrum (Metodologías ágiles).']
   }
 ]

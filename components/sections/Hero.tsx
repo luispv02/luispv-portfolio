@@ -18,8 +18,8 @@ export const Hero = () => {
       <div className="animate-top">
         <h1 className="text-3xl md:text-6xl font-bold font-mono tracking-tight">Desarrollador <span className="text-blue-500">Fullstack</span></h1>
 
-        <p className="text-sm md:text-xl font-sans text-gray-400">
-          Especializado en Frontend con React.js y Vue 3, enfocado en integración de APIs y desarrollo de interfaces escalables y mantenibles.
+        <p className="text-sm md:text-xl font-sans text-gray-400 mt-4">
+          Especializado en Frontend con experiencia en React.js y Vue 3, desarrollando aplicaciones web modernas e integraciones de APIs con enfoque en rendimiento y experiencia de usuario.
         </p>
       </div>
       

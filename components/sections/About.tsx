@@ -9,7 +9,7 @@ export const About = () => {
     {
       title: 'Frontend',
       icon: LuCodeXml,
-      items: 'React.js, JavaScript, TypeScript, Tailwind CSS',
+      items: 'React.js, Vue 3, JavaScript, TypeScript, Tailwind CSS',
     },
     {
       title: 'Backend',
@@ -28,7 +28,7 @@ export const About = () => {
       <SectionHeader title="Sobre mí" />
       
       <p className="text-gray-400">
-        Desarrollador Fullstack con <span className="text-white">2+ años de experiencia</span> construyendo y manteniendo aplicaciones web en producción. Especializado en Frontend con <span className="text-white">React.js</span> y <span className="text-white">Vue 3</span>, enfocado en integración de APIs, visualización de datos y desarrollo de interfaces escalables y mantenibles. Experiencia complementaria con Node.js, Firebase y arquitecturas serverless en AWS.
+        Desarrollador Fullstack enfocado en Frontend con 3 años de experiencia construyendo aplicaciones web con <span className="text-white">React.js</span> y <span className="text-white">Vue 3</span>. Especializado en desarrollo de interfaces modernas, integración de APIs REST y optimización de rendimiento, con conocimientos en Node.js y arquitecturas serverless sobre AWS.
       </p>
 
       <div className="md:grid grid-cols-3 gap-4 mt-8">
