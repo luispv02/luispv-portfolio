@@ -7,8 +7,8 @@ export const Technologies = () => {
       <SectionHeader title="Tecnologías"/>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {
-          technologies.map(technology => (
-            <div key={technology.category} className="border border-gray-500 p-6 space-y-4 bg-white/10 rounded-lg">
+          technologies.map((technology, i) => (
+            <div key={technology.category} className="border border-gray-500 p-6 space-y-4 bg-white/10 rounded-lg fade-up" style={{ transitionDelay: `${i * 100}ms` }}>
               <p className="text-blue-500 font-bold">{technology.category}</p>
 
               <div className="flex flex-wrap gap-2">

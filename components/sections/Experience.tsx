@@ -9,7 +9,7 @@ export const Experience = () => {
     <div id="experience">
       <SectionHeader title="Experiencia laboral" />
 
-      <div>
+      <div className="fade-up">
         {
           experiences.map(exp => (
             <div key={exp.id}>

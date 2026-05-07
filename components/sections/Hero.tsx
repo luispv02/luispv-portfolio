@@ -15,7 +15,7 @@ export const Hero = () => {
 
   return (
     <div id="hero" className="h-screen flex flex-col justify-center space-y-8 text-center">
-      <div className="animate-top">
+      <div className="fade-down">
         <h1 className="text-3xl md:text-6xl font-bold font-mono tracking-tight">Desarrollador <span className="text-blue-500">Fullstack</span></h1>
 
         <p className="text-sm md:text-xl font-sans text-gray-400 mt-4">
@@ -23,7 +23,7 @@ export const Hero = () => {
         </p>
       </div>
       
-      <div className="animate-bottom">
+      <div className="fade-up">
         <a 
           href="/CV_Luis_Fernando.pdf" 
           target="_blank" 

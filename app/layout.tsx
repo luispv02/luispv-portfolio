@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Header } from "@/components/layout/Header";
+import { RevealProvider } from "@/components/layout/RevealProvider";
 
 
 export const metadata: Metadata = {
@@ -18,6 +19,8 @@ export default function RootLayout({
   return (
     <html lang="es">
       <body className="bg-linear-to-b from-[#020918] to-[#01030E] antialiased">
+        <RevealProvider />
+
         <Header />
 
         <main className="max-w-4xl mx-auto">

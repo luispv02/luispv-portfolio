@@ -7,7 +7,7 @@ export const Education = () => {
       <SectionHeader title="Educación"/>
 
       <div>
-        <div className="bg-white/10 rounded-lg p-6">
+        <div className="bg-white/10 rounded-lg p-6 fade-up">
           <div className="flex items-start gap-4">
             <MdOutlineSchool size={30} className="text-blue-500"/>
             <div className="space-y-1">

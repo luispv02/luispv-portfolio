@@ -74,7 +74,7 @@ export const Contact = () => {
     <div id="contact">
       <SectionHeader title="Contacto"/>
 
-      <form onSubmit={handleSubmit} className="max-w-md mx-auto space-y-4">
+      <form onSubmit={handleSubmit} className="max-w-md mx-auto space-y-4 fade-up">
         <div>
           <div className="flex items-center gap-2 mb-2">
             <FaRegUser className="text-blue-500"/>

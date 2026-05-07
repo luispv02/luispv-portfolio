@@ -12,10 +12,10 @@ export const Projects = () => {
     <div id="projects">
       <SectionHeader title="Proyectos" />
 
-      <div className="grid grid-cols-[repeat(auto-fill,minmax(250px,1fr))] gap-5">
+      <div className="grid grid-cols-[repeat(auto-fill,minmax(250px,1fr))] gap-5 fade-up">
         {
           projects.map(project => (
-            <Card key={project.id} className="bg-white/10 border border-gray-500 transition hover:border-blue-500 hover:scale-105 space-y-4">
+            <Card key={project.id} className="bg-white/10 border border-gray-500 transition hover:border-blue-500 hover:scale-105 space-y-4 fade-up" style={{ transitionDelay: `${project.id * 100}ms` }}>
               <CardHeader>
                 <CardTitle className="text-white">{ project.title }</CardTitle>
               </CardHeader>
