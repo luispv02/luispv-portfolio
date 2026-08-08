@@ -16,9 +16,9 @@ export const Hero = () => {
   return (
     <div id="hero" className="h-screen flex flex-col justify-center space-y-8 text-center">
       <div className="fade-down">
-        <h1 className="text-3xl md:text-6xl font-bold font-mono tracking-tight">Desarrollador <span className="text-blue-500">Fullstack</span></h1>
+        <h1 className="text-3xl md:text-6xl font-bold font-mono tracking-tight">Desarrollador <span className="text-stone-200">Fullstack</span></h1>
 
-        <p className="text-sm md:text-xl font-sans text-gray-400 mt-4">
+        <p className="text-sm md:text-xl font-sans text-stone-400 mt-4">
           Especializado en Frontend con experiencia en React.js y Vue 3, desarrollando aplicaciones web modernas e integraciones de APIs con enfoque en rendimiento y experiencia de usuario.
         </p>
       </div>
@@ -28,7 +28,7 @@ export const Hero = () => {
           href="/CV_Luis_Fernando.pdf" 
           target="_blank" 
           rel="noopener noreferrer"
-          className="inline-block border border-gray-500 px-4 py-1 rounded-md cursor-pointer text-sm transition  hover:border-blue-400 hover:text-blue-400 text-gray-400 hover:scale-110"
+          className="inline-block border border-stone-700 px-4 py-1 rounded-full cursor-pointer text-sm transition  hover:border-stone-200 hover:text-stone-100 text-stone-400 hover:scale-110"
         >
           Ver CV
         </a>
@@ -41,7 +41,7 @@ export const Hero = () => {
                 href={url} 
                 target="_blank" 
                 rel="noopener noreferrer" 
-                className="border border-gray-500 p-2 rounded-full transition hover:border-blue-400 hover:text-blue-400 hover:scale-110 text-gray-400"
+                className="border border-stone-700 p-2 rounded-full transition hover:border-stone-200 hover:text-stone-100 hover:scale-110 text-stone-400"
               >
                 <Icon size={20} />
               </a>
@@ -50,7 +50,7 @@ export const Hero = () => {
         </div>
       </div>
 
-      <a href="#about" className="absolute bottom-5 left-1/2 -translate-x-1/2 animate-bounce text-gray-300">
+      <a href="#about" className="absolute bottom-5 left-1/2 -translate-x-1/2 animate-bounce text-stone-300">
         <FaArrowDown size={20}/>
       </a>
 

@@ -35,16 +35,16 @@ export const Header = () => {
 
   return (
     <header 
-      className={`w-full fixed transition-all duration-300 h-15 flex items-center px-4 z-50 ${hasHeaderStyle ? 'h-17 backdrop-blur-sm  shadow-sm shadow-blue-500/60' : 'border-transparent'}`}>
+      className={`w-full fixed transition-all duration-300 h-15 flex items-center px-4 z-50 ${hasHeaderStyle ? 'h-17 backdrop-blur-sm  shadow-sm shadow-white/10' : 'border-transparent'}`}>
       <div className="w-full max-w-4xl mx-auto flex justify-between items-center">
 
-        <a href="#hero" className="text-blue-400 text-lg font-bold">LuisPv</a>
+        <a href="#hero" className="text-stone-100 text-lg font-bold">LuisPv</a>
 
         <div className="hidden md:flex">
           <nav className="flex gap-4">
               {
                 MenuLinks.map(link => (
-                  <a key={link.href} href={link.href} className="list-none text-white hover:text-blue-400 text-sm">{ link.label }</a>
+                  <a key={link.href} href={link.href} className="list-none text-stone-300 hover:text-white text-sm">{ link.label }</a>
                 ))
               }
           </nav>
@@ -61,14 +61,14 @@ export const Header = () => {
               />
             </SheetTrigger>
 
-            <SheetContent side="top" className="bg-white/10 backdrop-blur-xs border-b border-blue-950  [&>button]:text-white">
+            <SheetContent side="top" className="bg-black/80 backdrop-blur-xs border-b border-stone-800  [&>button]:text-white">
               <SheetTitle className="sr-only">
                 Menú principal
               </SheetTitle> 
               <nav className="flex flex-col items-center justify-center mt-16">
                   {
                     MenuLinks.map(link => (
-                      <a key={link.href} href={link.href} className="text-white w-full text-center list-none py-2 hover:text-blue-400" onClick={() => setOpen(false)}>{ link.label }</a>
+                      <a key={link.href} href={link.href} className="text-stone-300 w-full text-center list-none py-2 hover:text-white" onClick={() => setOpen(false)}>{ link.label }</a>
                     ))
                   }
               </nav>

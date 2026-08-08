@@ -77,37 +77,37 @@ export const Contact = () => {
       <form onSubmit={handleSubmit} className="max-w-md mx-auto space-y-4 fade-up">
         <div>
           <div className="flex items-center gap-2 mb-2">
-            <FaRegUser className="text-blue-500"/>
+            <FaRegUser className="text-stone-200"/>
             <Label htmlFor="name">Nombre</Label>
           </div>
-          <Input id="name" name="name" type="text" className="border border-gray-500 focus-visible:ring-0 focus-visible:border-blue/80  shadow-md focus-visible:shadow-blue-500" value={contactData.name} onChange={handleInputChange} disabled={loading} />
+          <Input id="name" name="name" type="text" className="border border-stone-700 focus-visible:ring-0 focus-visible:border-stone-200  shadow-md focus-visible:shadow-white/10" value={contactData.name} onChange={handleInputChange} disabled={loading} />
         </div>
 
         <div>
           <div className="flex items-center gap-2 mb-2">
-            <MdOutlineEmail className="text-blue-500"/>
+            <MdOutlineEmail className="text-stone-200"/>
             <Label htmlFor="email">Email</Label>
           </div>
-          <Input id="email" name="email" type="email" className="border border-gray-500 focus-visible:ring-0 focus-visible:border-blue/80  shadow-md focus-visible:shadow-blue-500" value={contactData.email} onChange={handleInputChange} disabled={loading}/>
+          <Input id="email" name="email" type="email" className="border border-stone-700 focus-visible:ring-0 focus-visible:border-stone-200  shadow-md focus-visible:shadow-white/10" value={contactData.email} onChange={handleInputChange} disabled={loading}/>
         </div>
 
         <div>
           <div className="flex items-center gap-2 mb-2">
-            <FiMessageSquare className="text-blue-500"/>
+            <FiMessageSquare className="text-stone-200"/>
             <Label htmlFor="message">Mensaje</Label>
           </div>
-          <Textarea id="message" name="message" placeholder="Escribe tu mensaje" className="h-40 text-sm md:text-base border border-gray-500 focus-visible:ring-0 focus-visible:border-blue/80  shadow-md focus-visible:shadow-blue-500" value={contactData.message} onChange={handleInputChange} disabled={loading}/>
+          <Textarea id="message" name="message" placeholder="Escribe tu mensaje" className="h-40 text-sm md:text-base border border-stone-700 focus-visible:ring-0 focus-visible:border-stone-200  shadow-md focus-visible:shadow-white/10" value={contactData.message} onChange={handleInputChange} disabled={loading}/>
         </div>
 
         {
-          displayMsg && <p className={`text-xs text-center font-semibold ${displayMsg.ok ? 'text-blue-500' : 'text-red-500' }`}>{ displayMsg.msg }</p>
+          displayMsg && <p className={`text-xs text-center font-semibold ${displayMsg.ok ? 'text-stone-200' : 'text-stone-400' }`}>{ displayMsg.msg }</p>
         }
 
         <div className="flex justify-center mt-10">
           {
             loading 
-            ? <div className="w-8 h-8 border-t-2 p-2 border-blue-500 rounded-full animate-spin"></div>
-            : <Button type="submit" className="bg-blue-500 hover:bg-blue-600 transition cursor-pointer" disabled={contactData.name === '' || contactData.email === '' || contactData.message === ''}>
+            ? <div className="w-8 h-8 border-t-2 p-2 border-stone-200 rounded-full animate-spin"></div>
+            : <Button type="submit" className="bg-stone-200 text-stone-950 hover:bg-white transition cursor-pointer" disabled={contactData.name === '' || contactData.email === '' || contactData.message === ''}>
                 Enviar mensaje
                 <FiSend />
               </Button>

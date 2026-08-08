@@ -18,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es">
-      <body className="bg-linear-to-b from-[#020918] to-[#01030E] antialiased">
+      <body className="bg-linear-to-b from-[#030303] to-[#000000] antialiased">
         <RevealProvider />
 
         <Header />

@@ -15,20 +15,20 @@ export const Projects = () => {
       <div className="grid grid-cols-[repeat(auto-fill,minmax(250px,1fr))] gap-5 fade-up">
         {
           projects.map(project => (
-            <Card key={project.id} className="bg-white/10 border border-gray-500 transition hover:border-blue-500 hover:scale-105 space-y-4 fade-up" style={{ transitionDelay: `${project.id * 100}ms` }}>
+            <Card key={project.id} className="bg-white/[0.04] border border-stone-800 transition hover:border-stone-300 hover:scale-105 space-y-4 fade-up" style={{ transitionDelay: `${project.id * 100}ms` }}>
               <CardHeader>
                 <CardTitle className="text-white">{ project.title }</CardTitle>
               </CardHeader>
 
               <CardContent>
-                <p className="text-sm text-gray-300">{ project.description }</p>
+                <p className="text-sm text-stone-300">{ project.description }</p>
               </CardContent>
 
               <CardFooter className="flex flex-col items-start mt-auto">
                 <div className="flex flex-wrap gap-1 mb-4">
                   {
                     project.tech.map(t => (
-                      <div key={t} className="bg-blue-500 text-white px-2 py-0.5 rounded-full font-mono text-xs">{t}</div>
+                      <div key={t} className="bg-stone-200 text-stone-950 px-2 py-0.5 rounded-full font-mono text-xs">{t}</div>
                     ))
                   }
                 </div>
@@ -36,7 +36,7 @@ export const Projects = () => {
                 <div className="flex gap-3">
                   {
                     project.links.map(link => (
-                      <a key={link.url} href={link.url} target="_blank" rel="noopener noreferrer" className="flex items-center text-gray-300 gap-1 hover:text-white transition hover:underline">
+                      <a key={link.url} href={link.url} target="_blank" rel="noopener noreferrer" className="flex items-center text-stone-300 gap-1 hover:text-white transition hover:underline">
                         { link.type === 'demo' ? <LuExternalLink /> : <FiGithub /> }
                         <p className="text-sm">{link.label}</p>
                       </a>

@@ -6,7 +6,7 @@ interface Technology {
 export const technologies: Technology[] = [
   {
     category: 'Frontend',
-    skills: ['React.js', 'TypeScript', 'JavaScript', 'Zustand', 'Redux', 'React Query','Jest', 'React Testing Library', 'Vue 3', 'Pinia', 'HTML', 'CSS', 'Tailwind CSS', 'Sass', 'Bootstrap', 'Quasar', 'Responsive Design']
+    skills: ['React.js', 'Next.js', 'TypeScript', 'JavaScript', 'Zustand', 'Redux', 'React Query','Jest', 'React Testing Library', 'Vue 3', 'Pinia', 'HTML', 'CSS', 'Tailwind CSS', 'Sass', 'Bootstrap', 'Quasar', 'Responsive Design']
   },
   {
     category: 'Backend',
