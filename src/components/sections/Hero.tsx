@@ -16,17 +16,17 @@ export const Hero = () => {
   return (
     <div id="hero" className="h-screen flex flex-col justify-center space-y-8 text-center">
       <div className="fade-down">
-        <h1 className="text-3xl md:text-6xl font-bold font-mono tracking-tight">Desarrollador <span className="text-stone-200">Fullstack</span></h1>
+        <h1 className="text-3xl md:text-6xl font-bold font-mono tracking-tight">Desarrollador Full Stack</h1>
 
         <p className="text-sm md:text-xl font-sans text-stone-400 mt-4">
-          Especializado en Frontend con experiencia en React.js y Vue 3, desarrollando aplicaciones web modernas e integraciones de APIs con enfoque en rendimiento y experiencia de usuario.
+          Desarrollador especializado en Frontend con React, Next.js y Vue 3, con experiencia en Node.js, APIs y bases de datos, enfocado en crear aplicaciones web modernas, eficientes y escalables
         </p>
       </div>
-      
+
       <div className="fade-up">
-        <a 
-          href="/CV_Luis_Fernando.pdf" 
-          target="_blank" 
+        <a
+          href="/Luis_Fernando_Perez_CV.pdf"
+          target="_blank"
           rel="noopener noreferrer"
           className="inline-block border border-stone-700 px-4 py-1 rounded-full cursor-pointer text-sm transition  hover:border-stone-200 hover:text-stone-100 text-stone-400 hover:scale-110"
         >
@@ -36,11 +36,11 @@ export const Hero = () => {
         <div className="mt-4 flex justify-center items-center gap-4">
           {
             networks.map(({ url, icon: Icon, label }) => (
-              <a 
-                key={label} 
-                href={url} 
-                target="_blank" 
-                rel="noopener noreferrer" 
+              <a
+                key={label}
+                href={url}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="border border-stone-700 p-2 rounded-full transition hover:border-stone-200 hover:text-stone-100 hover:scale-110 text-stone-400"
               >
                 <Icon size={20} />
@@ -51,7 +51,7 @@ export const Hero = () => {
       </div>
 
       <a href="#about" className="absolute bottom-5 left-1/2 -translate-x-1/2 animate-bounce text-stone-300">
-        <FaArrowDown size={20}/>
+        <FaArrowDown size={20} />
       </a>
 
     </div>

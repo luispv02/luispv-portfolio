@@ -1,4 +1,4 @@
-import { projects } from "@/data/projects"
+import { projects } from "@/src/data/projects"
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "../ui/card"
 import { SectionHeader } from "./SectionHeader"
 import { LuExternalLink } from "react-icons/lu"

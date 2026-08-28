@@ -1,6 +1,6 @@
 "use client";
 
-import { useReveal } from "@/hooks/useReveal";
+import { useReveal } from "@/src/hooks/useReveal";
 
 
 export const RevealProvider = () => {

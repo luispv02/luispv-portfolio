@@ -1,4 +1,4 @@
-import { technologies } from "@/data/technologies"
+import { technologies } from "@/src/data/technologies"
 import { SectionHeader } from "./SectionHeader"
 
 export const Technologies = () => {

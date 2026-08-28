@@ -1,4 +1,4 @@
-import { experiences } from "@/data/experience";
+import { experiences } from "@/src/data/experience";
 import { MdOutlineWorkOutline } from "react-icons/md"
 import { SectionHeader } from "./SectionHeader";
 

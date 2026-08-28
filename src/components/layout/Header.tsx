@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react"
 import Image from 'next/image'
-import { Sheet, SheetContent, SheetTitle, SheetTrigger } from "@/components/ui/sheet"
+import { Sheet, SheetContent, SheetTitle, SheetTrigger } from "@/src/components/ui/sheet"
 
 export interface MenuLink {
   href: string;
@@ -18,8 +18,6 @@ export const Header = () => {
     { href: '#about', label: 'Sobre mí' },
     { href: '#experience', label: 'Experiencia' },
     { href: '#projects', label: 'Proyectos' },
-    { href: '#technologies', label: 'Tecnologías' },
-    { href: '#education', label: 'Educación' },
     { href: '#contact', label: 'Contacto' },
   ]
 

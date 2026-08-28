@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
+
 import "./globals.css";
-import { Header } from "@/components/layout/Header";
-import { RevealProvider } from "@/components/layout/RevealProvider";
+import { Header } from "@/src/components/layout/Header";
+import { RevealProvider } from "@/src/components/layout/RevealProvider";
 
 
 export const metadata: Metadata = {

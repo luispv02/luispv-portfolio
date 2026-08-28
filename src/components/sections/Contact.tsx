@@ -10,7 +10,7 @@ import { Button } from "../ui/button"
 import { FiMessageSquare, FiSend } from "react-icons/fi"
 import { MdOutlineEmail } from "react-icons/md"
 import emailjs from "@emailjs/browser"
-import { ContactData, DisplayMsg } from "@/types/contact"
+import { ContactData, DisplayMsg } from "@/src/types/contact"
 
 const publicKey = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY;
 const serviceId = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID;
