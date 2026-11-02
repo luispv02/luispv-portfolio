@@ -12,10 +12,10 @@ export const Projects = () => {
     <div id="projects">
       <SectionHeader title="Proyectos" />
 
-      <div className="grid grid-cols-[repeat(auto-fill,minmax(250px,1fr))] gap-5 fade-up">
+      <div className="grid grid-cols-[repeat(auto-fit,minmax(250px,1fr))] gap-5 fade-up">
         {
           projects.map(project => (
-            <Card key={project.id} className="bg-white/[0.04] border border-stone-800 transition hover:border-stone-300 hover:scale-105 space-y-4 fade-up" style={{ transitionDelay: `${project.id * 100}ms` }}>
+            <Card key={project.id} className="bg-white/4 border border-stone-800 transition hover:border-stone-300 hover:scale-105 space-y-4 fade-up" style={{ transitionDelay: `${project.id * 100}ms` }}>
               <CardHeader>
                 <CardTitle className="text-white">{ project.title }</CardTitle>
               </CardHeader>
@@ -25,7 +25,7 @@ export const Projects = () => {
               </CardContent>
 
               <CardFooter className="flex flex-col items-start mt-auto">
-                <div className="flex flex-wrap gap-1 mb-4">
+                <div className="flex flex-wrap gap-2 mb-4">
                   {
                     project.tech.map(t => (
                       <div key={t} className="bg-stone-200 text-stone-950 px-2 py-0.5 rounded-full font-mono text-xs">{t}</div>

@@ -3,13 +3,12 @@ import { Project } from "@/src/types/project";
 export const projects: Project[] = [
   {
     id: 1,
-    title: 'E-commerce',
-    description: 'Aplicación Ecommerce fullstack con arquitectura MERN, que integra autenticación JWT con roles, APIs REST para gestión de productos, usuarios y órdenes, y un dashboard administrativo con métricas clave. Incluye protección de rutas y despliegue en Vercel (frontend) y Render (backend).',
-    tech: ['React.js', 'TypeScript', 'TanStack Query', 'Zustand', 'Node.js', 'Express', 'MongoDB', 'JWT', 'Tailwind CSS'],
+    title: 'E-commerce Fullstack',
+    description: 'Tienda en línea con catálogo, filtros, variantes, carrito e historial de pedidos. Implementé autenticación por roles, panel administrativo e integración de Stripe Checkout con webhooks para gestionar pagos, pedidos y control de inventario.',
+    tech: ['React.js', 'Next.js', 'TypeScript', 'PostgreSQL', 'Prisma ORM', 'Better Auth', 'Stripe', 'Tailwind CSS'],
     links: [
-      { label: 'Demo', url: 'https://e-commerce-app-teal-psi.vercel.app/', type: 'demo' },
-      { label: 'Frontend', url: 'https://github.com/luispv02/e-commerce-frontend', type: 'github' },
-      { label: 'Backend', url: 'https://github.com/luispv02/e-commerce-backend', type: 'github' }
+      { label: 'Demo', url: 'https://e-commerce-next-omega-liart.vercel.app/', type: 'demo' },
+      { label: 'Repositorio', url: 'https://github.com/luispv02/e-commerce-next', type: 'github' },
     ]
   },
   {
